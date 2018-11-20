@@ -1,0 +1,152 @@
+2018-11-12 17:04:06  [ RMI TCP Connection(15)-127.0.0.1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-11-12 17:04:07  [ RMI TCP Connection(15)-127.0.0.1:199 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Nov 12 17:04:07 CST 2018]; root of context hierarchy
+2018-11-12 17:04:07  [ RMI TCP Connection(15)-127.0.0.1:338 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-11-12 17:04:07  [ RMI TCP Connection(15)-127.0.0.1:949 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2018-11-12 17:04:08  [ RMI TCP Connection(15)-127.0.0.1:1705 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1692 ms
+2018-11-12 17:04:08  [ RMI TCP Connection(15)-127.0.0.1:1757 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization started
+2018-11-12 17:04:08  [ RMI TCP Connection(15)-127.0.0.1:1761 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:04:08 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:04:08  [ RMI TCP Connection(15)-127.0.0.1:1762 ] - [ INFO ]  Loading XML bean definitions from class path resource [springmvc-servlet.xml]
+2018-11-12 17:04:08  [ RMI TCP Connection(15)-127.0.0.1:2122 ] - [ INFO ]  Mapped "{[/mainkind/to_main],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.getTest(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-11-12 17:04:08  [ RMI TCP Connection(15)-127.0.0.1:2123 ] - [ INFO ]  Mapped "{[/mainkind/to_login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.retTest(model.Test1)
+2018-11-12 17:04:09  [ RMI TCP Connection(15)-127.0.0.1:2831 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:04:08 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:04:09  [ RMI TCP Connection(15)-127.0.0.1:2839 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-12 17:04:09  [ RMI TCP Connection(15)-127.0.0.1:2920 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:04:08 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:04:09  [ RMI TCP Connection(15)-127.0.0.1:2922 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-12 17:04:09  [ RMI TCP Connection(15)-127.0.0.1:2970 ] - [ INFO ]  Detected ResponseBodyAdvice implementation in testMethod
+2018-11-12 17:04:09  [ RMI TCP Connection(15)-127.0.0.1:3035 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization completed in 1278 ms
+2018-11-12 17:04:10  [ http-apr-8080-exec-4:3559 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:04:10  [ http-apr-8080-exec-6:4111 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:04:17  [ http-apr-8080-exec-10:10869 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:05:47  [ localhost-startStop-2:100492 ] - [ INFO ]  Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:04:08 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:05:47  [ localhost-startStop-2:100496 ] - [ INFO ]  Closing Root WebApplicationContext: startup date [Mon Nov 12 17:04:07 CST 2018]; root of context hierarchy
+2018-11-12 17:06:46  [ RMI TCP Connection(3)-127.0.0.1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-11-12 17:06:46  [ RMI TCP Connection(3)-127.0.0.1:60 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Nov 12 17:06:46 CST 2018]; root of context hierarchy
+2018-11-12 17:06:46  [ RMI TCP Connection(3)-127.0.0.1:93 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:318 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:546 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 545 ms
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:572 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization started
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:574 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:06:47 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:576 ] - [ INFO ]  Loading XML bean definitions from class path resource [springmvc-servlet.xml]
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:754 ] - [ INFO ]  Mapped "{[/mainkind/to_main],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.getTest(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:755 ] - [ INFO ]  Mapped "{[/mainkind/to_login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.retTest(model.Test1)
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:977 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:06:47 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:981 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:1035 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:06:47 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:1036 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:1060 ] - [ INFO ]  Detected ResponseBodyAdvice implementation in testMethod
+2018-11-12 17:06:47  [ RMI TCP Connection(3)-127.0.0.1:1093 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization completed in 521 ms
+2018-11-12 17:06:48  [ http-apr-8080-exec-2:1457 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:06:48  [ http-apr-8080-exec-4:1472 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:06:48  [ http-apr-8080-exec-6:1680 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:07:02  [ localhost-startStop-2:15228 ] - [ INFO ]  Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:06:47 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:07:02  [ localhost-startStop-2:15233 ] - [ INFO ]  Closing Root WebApplicationContext: startup date [Mon Nov 12 17:06:46 CST 2018]; root of context hierarchy
+2018-11-12 17:07:34  [ RMI TCP Connection(5)-127.0.0.1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-11-12 17:07:35  [ RMI TCP Connection(5)-127.0.0.1:244 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Nov 12 17:07:35 CST 2018]; root of context hierarchy
+2018-11-12 17:07:35  [ RMI TCP Connection(5)-127.0.0.1:351 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-11-12 17:07:35  [ RMI TCP Connection(5)-127.0.0.1:872 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2018-11-12 17:07:36  [ RMI TCP Connection(5)-127.0.0.1:1527 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1523 ms
+2018-11-12 17:07:36  [ RMI TCP Connection(5)-127.0.0.1:1581 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization started
+2018-11-12 17:07:36  [ RMI TCP Connection(5)-127.0.0.1:1585 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:07:36 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:07:36  [ RMI TCP Connection(5)-127.0.0.1:1586 ] - [ INFO ]  Loading XML bean definitions from class path resource [springmvc-servlet.xml]
+2018-11-12 17:07:36  [ RMI TCP Connection(5)-127.0.0.1:1902 ] - [ INFO ]  Mapped "{[/mainkind/to_main],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.getTest(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-11-12 17:07:36  [ RMI TCP Connection(5)-127.0.0.1:1903 ] - [ INFO ]  Mapped "{[/mainkind/to_login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.retTest(model.Test1)
+2018-11-12 17:07:37  [ RMI TCP Connection(5)-127.0.0.1:2314 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:07:36 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:07:37  [ RMI TCP Connection(5)-127.0.0.1:2320 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-12 17:07:37  [ RMI TCP Connection(5)-127.0.0.1:2391 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:07:36 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:07:37  [ RMI TCP Connection(5)-127.0.0.1:2393 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-12 17:07:37  [ RMI TCP Connection(5)-127.0.0.1:2434 ] - [ INFO ]  Detected ResponseBodyAdvice implementation in testMethod
+2018-11-12 17:07:37  [ RMI TCP Connection(5)-127.0.0.1:2494 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization completed in 912 ms
+2018-11-12 17:07:37  [ http-apr-8080-exec-2:3091 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:07:37  [ http-apr-8080-exec-4:3119 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:07:38  [ http-apr-8080-exec-6:3465 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:07:51  [ localhost-startStop-2:16297 ] - [ INFO ]  Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:07:36 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:07:51  [ localhost-startStop-2:16307 ] - [ INFO ]  Closing Root WebApplicationContext: startup date [Mon Nov 12 17:07:35 CST 2018]; root of context hierarchy
+2018-11-12 17:08:43  [ RMI TCP Connection(3)-127.0.0.1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-11-12 17:08:43  [ RMI TCP Connection(3)-127.0.0.1:83 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Nov 12 17:08:43 CST 2018]; root of context hierarchy
+2018-11-12 17:08:43  [ RMI TCP Connection(3)-127.0.0.1:132 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-11-12 17:08:44  [ RMI TCP Connection(3)-127.0.0.1:500 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2018-11-12 17:08:44  [ RMI TCP Connection(3)-127.0.0.1:821 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 819 ms
+2018-11-12 17:08:44  [ RMI TCP Connection(3)-127.0.0.1:855 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization started
+2018-11-12 17:08:44  [ RMI TCP Connection(3)-127.0.0.1:858 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:08:44 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:08:44  [ RMI TCP Connection(3)-127.0.0.1:861 ] - [ INFO ]  Loading XML bean definitions from class path resource [springmvc-servlet.xml]
+2018-11-12 17:08:44  [ RMI TCP Connection(3)-127.0.0.1:1124 ] - [ INFO ]  Mapped "{[/mainkind/to_main],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.getTest(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-11-12 17:08:44  [ RMI TCP Connection(3)-127.0.0.1:1125 ] - [ INFO ]  Mapped "{[/mainkind/to_login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.retTest(model.Test1)
+2018-11-12 17:08:44  [ RMI TCP Connection(3)-127.0.0.1:1486 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:08:44 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:08:45  [ RMI TCP Connection(3)-127.0.0.1:1492 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-12 17:08:45  [ RMI TCP Connection(3)-127.0.0.1:1562 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:08:44 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:08:45  [ RMI TCP Connection(3)-127.0.0.1:1565 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-12 17:08:45  [ RMI TCP Connection(3)-127.0.0.1:1607 ] - [ INFO ]  Detected ResponseBodyAdvice implementation in testMethod
+2018-11-12 17:08:45  [ RMI TCP Connection(3)-127.0.0.1:1662 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization completed in 807 ms
+2018-11-12 17:08:45  [ http-apr-8080-exec-2:2143 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:08:46  [ http-apr-8080-exec-4:3212 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:08:47  [ http-apr-8080-exec-7:3517 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 17:08:51  [ http-apr-8080-exec-5:8218 ] - [ INFO ]  *********dfc2f414271e41018d51dd0f301755e4
+2018-11-12 17:09:15  [ http-apr-8080-exec-10:31880 ] - [ INFO ]  sf***fads
+2018-11-12 17:34:35  [ localhost-startStop-2:1552378 ] - [ INFO ]  Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 17:08:44 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 17:34:35  [ localhost-startStop-2:1552398 ] - [ INFO ]  Closing Root WebApplicationContext: startup date [Mon Nov 12 17:08:43 CST 2018]; root of context hierarchy
+2018-11-12 21:55:20  [ RMI TCP Connection(17)-127.0.0.1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-11-12 21:55:20  [ RMI TCP Connection(17)-127.0.0.1:303 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Nov 12 21:55:20 CST 2018]; root of context hierarchy
+2018-11-12 21:55:20  [ RMI TCP Connection(17)-127.0.0.1:376 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-11-12 21:55:21  [ RMI TCP Connection(17)-127.0.0.1:1325 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2018-11-12 21:55:22  [ RMI TCP Connection(17)-127.0.0.1:2243 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2221 ms
+2018-11-12 21:55:22  [ RMI TCP Connection(17)-127.0.0.1:2283 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization started
+2018-11-12 21:55:22  [ RMI TCP Connection(17)-127.0.0.1:2287 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 21:55:22 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 21:55:22  [ RMI TCP Connection(17)-127.0.0.1:2288 ] - [ INFO ]  Loading XML bean definitions from class path resource [springmvc-servlet.xml]
+2018-11-12 21:55:23  [ RMI TCP Connection(17)-127.0.0.1:2856 ] - [ INFO ]  Mapped "{[/mainkind/to_main],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.getTest(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-11-12 21:55:23  [ RMI TCP Connection(17)-127.0.0.1:2857 ] - [ INFO ]  Mapped "{[/mainkind/to_login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.retTest(model.Test1)
+2018-11-12 21:55:23  [ RMI TCP Connection(17)-127.0.0.1:3526 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 21:55:22 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 21:55:23  [ RMI TCP Connection(17)-127.0.0.1:3534 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-12 21:55:23  [ RMI TCP Connection(17)-127.0.0.1:3610 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 21:55:22 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 21:55:23  [ RMI TCP Connection(17)-127.0.0.1:3613 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-12 21:55:23  [ RMI TCP Connection(17)-127.0.0.1:3662 ] - [ INFO ]  Detected ResponseBodyAdvice implementation in testMethod
+2018-11-12 21:55:24  [ RMI TCP Connection(17)-127.0.0.1:3727 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization completed in 1443 ms
+2018-11-12 21:55:24  [ http-apr-8080-exec-2:4104 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:55:26  [ http-apr-8080-exec-4:6281 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:55:27  [ http-apr-8080-exec-10:7188 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:55:56  [ http-apr-8080-exec-7:36667 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:55:59  [ http-apr-8080-exec-3:38766 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:55:59  [ http-apr-8080-exec-8:39142 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:55:59  [ http-apr-8080-exec-2:39418 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:55:59  [ http-apr-8080-exec-5:39625 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:00  [ http-apr-8080-exec-6:39811 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:00  [ http-apr-8080-exec-7:39976 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:00  [ http-apr-8080-exec-9:40157 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:00  [ http-apr-8080-exec-10:40335 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:00  [ http-apr-8080-exec-4:40519 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:01  [ http-apr-8080-exec-1:40714 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:01  [ http-apr-8080-exec-3:41515 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:02  [ http-apr-8080-exec-8:41834 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:02  [ http-apr-8080-exec-2:42121 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:02  [ http-apr-8080-exec-5:42345 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 21:56:02  [ http-apr-8080-exec-6:42554 ] - [ INFO ]  跳转到登陆页面...
+2018-11-12 22:00:15  [ localhost-startStop-2:295530 ] - [ INFO ]  Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon Nov 12 21:55:22 CST 2018]; parent: Root WebApplicationContext
+2018-11-12 22:00:15  [ localhost-startStop-2:295552 ] - [ INFO ]  Closing Root WebApplicationContext: startup date [Mon Nov 12 21:55:20 CST 2018]; root of context hierarchy
+2018-11-18 20:53:44  [ RMI TCP Connection(6)-127.0.0.1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-11-18 20:53:44  [ RMI TCP Connection(6)-127.0.0.1:234 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Sun Nov 18 20:53:44 CST 2018]; root of context hierarchy
+2018-11-18 20:53:44  [ RMI TCP Connection(6)-127.0.0.1:422 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-11-18 20:53:45  [ RMI TCP Connection(6)-127.0.0.1:1574 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2018-11-18 20:53:46  [ RMI TCP Connection(6)-127.0.0.1:2265 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2241 ms
+2018-11-18 20:53:46  [ RMI TCP Connection(6)-127.0.0.1:2326 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization started
+2018-11-18 20:53:46  [ RMI TCP Connection(6)-127.0.0.1:2330 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Sun Nov 18 20:53:46 CST 2018]; parent: Root WebApplicationContext
+2018-11-18 20:53:46  [ RMI TCP Connection(6)-127.0.0.1:2332 ] - [ INFO ]  Loading XML bean definitions from class path resource [springmvc-servlet.xml]
+2018-11-18 20:53:46  [ RMI TCP Connection(6)-127.0.0.1:2742 ] - [ INFO ]  Mapped "{[/mainkind/to_main],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.getTest(java.lang.String,java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-11-18 20:53:46  [ RMI TCP Connection(6)-127.0.0.1:2743 ] - [ INFO ]  Mapped "{[/mainkind/to_login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.MainController.retTest(model.Test1)
+2018-11-18 20:53:47  [ RMI TCP Connection(6)-127.0.0.1:3230 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Sun Nov 18 20:53:46 CST 2018]; parent: Root WebApplicationContext
+2018-11-18 20:53:47  [ RMI TCP Connection(6)-127.0.0.1:3237 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-18 20:53:47  [ RMI TCP Connection(6)-127.0.0.1:3320 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Sun Nov 18 20:53:46 CST 2018]; parent: Root WebApplicationContext
+2018-11-18 20:53:47  [ RMI TCP Connection(6)-127.0.0.1:3322 ] - [ INFO ]  Detected ResponseBodyAdvice bean in testMethod
+2018-11-18 20:53:47  [ RMI TCP Connection(6)-127.0.0.1:3364 ] - [ INFO ]  Detected ResponseBodyAdvice implementation in testMethod
+2018-11-18 20:53:47  [ RMI TCP Connection(6)-127.0.0.1:3421 ] - [ INFO ]  FrameworkServlet 'springmvc': initialization completed in 1095 ms
+2018-11-18 20:53:47  [ http-apr-8080-exec-2:3763 ] - [ INFO ]  跳转到登陆页面...
+2018-11-18 20:53:49  [ http-apr-8080-exec-4:5335 ] - [ INFO ]  跳转到登陆页面...
+2018-11-18 20:53:49  [ http-apr-8080-exec-8:5782 ] - [ INFO ]  跳转到登陆页面...
+2018-11-18 20:53:55  [ http-apr-8080-exec-5:10911 ] - [ INFO ]  跳转到登陆页面...
+2018-11-18 21:25:37  [ http-apr-8080-exec-1:1912883 ] - [ INFO ]  *********dfc2f414271e41018d51dd0f301755e4
+2018-11-18 22:00:15  [ http-apr-8080-exec-5:3991396 ] - [ INFO ]  null***null
+2018-11-18 22:06:02  [ http-apr-8080-exec-1:4338262 ] - [ INFO ]  跳转到登陆页面...
+2018-11-18 22:09:23  [ http-apr-8080-exec-4:4539136 ] - [ INFO ]  跳转到登陆页面...
+2018-11-18 22:11:46  [ http-apr-8080-exec-8:4682770 ] - [ INFO ]  *********dfc2f414271e41018d51dd0f301755e4
+2018-11-18 22:11:50  [ http-apr-8080-exec-7:4686141 ] - [ INFO ]  null***null
+2018-11-18 22:11:57  [ http-apr-8080-exec-2:4692798 ] - [ INFO ]  null***null
+2018-11-18 22:12:38  [ localhost-startStop-2:4734460 ] - [ INFO ]  Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Sun Nov 18 20:53:46 CST 2018]; parent: Root WebApplicationContext
+2018-11-18 22:12:38  [ localhost-startStop-2:4734473 ] - [ INFO ]  Closing Root WebApplicationContext: startup date [Sun Nov 18 20:53:44 CST 2018]; root of context hierarchy
